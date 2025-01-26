@@ -59,7 +59,8 @@ p{
 .image-card{
     position: relative;
     &:hover{
-        .titre-image{
+        .titre-image,
+        .action-image-buttons{
             opacity: 1;
         }
         img{
@@ -77,6 +78,18 @@ p{
         opacity: 0;
         transition: all 0.3s;
     }
+    .action-image-buttons{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+
 }
 
 .form-label{
