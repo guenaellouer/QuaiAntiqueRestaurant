@@ -23,7 +23,6 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <!--<a class="nav-link active" aria-current="page" href="/">Home</a>-->
                     <a class="nav-link active" aria-current="page" href="/">Accueil</a>
 
                   </li>
@@ -36,11 +35,14 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/allResa">Les réservations</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item" datta>
                     <a class="nav-link active" aria-current="page" href="/account">Mon compte</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item" data-show="disconnected">
                     <a class="nav-link active" aria-current="page" href="/signin">Connexion</a>
+                  </li>
+                  <li class="nav-item" data-show="connected">
+                    <button class="nav-link active" id="signout-btn">Déconnexion</button>
                   </li>
                   <!--Suppressions diverses
                   <li class="nav-item">
@@ -99,6 +101,7 @@
       </div>
     </footer>
 
+    <script src="./js/script.js"></script>
     <script type="module" src="./Router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
