@@ -59,14 +59,14 @@ function isConnected(){
         return true;
     }
 }
-
+/*
 if(isConnected()){
     alert("Je suis connecté !");
 }
 else{
     alert("Je ne suis pas connecté !");
 }
-
+*/
 /*
 disconnected
 connected (admin ou client)
