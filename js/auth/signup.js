@@ -13,6 +13,7 @@ inputMail.addEventListener("keyup", validateForm);
 inputPassword.addEventListener("keyup", validateForm);
 inputValidationPassword.addEventListener("keyup", validateForm);
 
+
 // Fonction principale de validation
 function validateForm() {
     const nomOk = validateRequired(inputNom);
